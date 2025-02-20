@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+}
+.banner{
+    background-color: #1f2937;
+    padding: 10px 50px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.banner .header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner .header div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.banner .main{
+    display: flex;
+}
+.banner .main > div{
+    flex: 1;
+}
+
+.banner .main > div:nth-child(2){
+    background-color: #6d747d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
