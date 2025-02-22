@@ -14,10 +14,18 @@ section.banner{
     padding-bottom: 100px;
 }
 
+button{
+    padding: 5px 20px;
+    border-radius: 5px;
+    background-color: #3882F6;
+    color: white;
+    border-color: #3882F6;
+    cursor: pointer;
+}
+
 .p-20-50{
     padding: 20px 50px 50px 50px;
 }
-
 
 .banner .header{
     display: flex;
@@ -35,6 +43,7 @@ section.banner{
 .banner .main{
     display: flex;
 }
+
 .banner .main > div{
     flex: 1;
 }
@@ -76,19 +85,62 @@ section.banner{
     text-align: center;
 }
 
-/* .body{ 
-    display: block; 
-    background-color:yellow; 
+.testimonial{
+    background-color: #e5e7eb;
+    padding: 80px 25px;
 }
 
-.topbody{
-    border: 2px solid red; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.testimonial p{
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
 }
-.fourheadings{
-    border: 2px solid blue;
-    display:flex;
+
+.testimonial p:nth-child(1){
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.testimonial p:nth-child(2){
+    text-align: right;
+    font-weight: 600;
+}
+
+.action {
+    padding: 80px 25px;
+    color: white;
+}
+
+.action > div{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 35px 70px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    max-width: 900px;
+    display: flex;
+    align-items: flex-end;
     justify-content: center;
-} */
+    gap: 100px;
+}
+
+.action > div p,.action > div h3{
+    margin: 0;
+}
+
+.action > div p{
+    color: #e5e7eb;
+}
+
+.action > div button{
+    border-color: white;
+}
+
+.footer{
+    padding: 25px;
+    background-color: #1F2937;
+    text-align: center;
+    color: white;
+}
